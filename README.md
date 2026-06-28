@@ -68,7 +68,7 @@ Built as a research-grade project, MedScribe AI demonstrates the integration of 
 ┌──────────────────────────▼──────────────────────────────┐
 │                    FASTAPI BACKEND                      │
 │                  (Render - Python)                      │
-├──────────────────────────────────────────────────────────
+├─────────────────────────────────────────────────────────┤
 │                                                         │
 │   PDF Upload                                            │
 │       │                                                 │
@@ -93,7 +93,7 @@ Built as a research-grade project, MedScribe AI demonstrates the integration of 
 │   │  [4] Hallucination Check Agent                  │   │
 │   │         │                                       │   │
 │   │         ▼                                       │   │
-│   │  [5] Output Compiler Agent                      │   │
+│   │  [5] Output Compiler Agen                       │   │
 │   └─────────────────────────────────────────────────┘   │
 │                          │                              │
 │                          ▼                              │
