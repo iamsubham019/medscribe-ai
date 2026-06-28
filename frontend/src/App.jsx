@@ -152,7 +152,7 @@ export default function App() {
             </button>
 
             {/* Accuracy badge */}
-            <div style={{ ...s.badge, background: isPass ? "#dcfce7", color: "#15803d" }}>
+            <div style={{ ...s.badge, background: isPass ? "#dcfce7" : "#fef2f2", color: isPass ? "#15803d" : "#b91c1c" }}>
               {isPass ? "✓ Accuracy verified" : "⚠ Review manually"}
             </div>
 
