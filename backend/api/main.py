@@ -18,7 +18,13 @@ app = FastAPI(title="MedScribe AI", version="1.0.0")
 # Allow frontend to communicate with backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://medscribe-ai-one.vercel.app",
+        "https://medscribe-ai.vercel.app",
+        "*"
+    ],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
