@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+chroma_db/
+temp_*.pdf
+
+# Environment
+.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
